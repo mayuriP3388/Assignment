@@ -1,0 +1,64 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title style="font-size:16px;">{{productname}}</ion-title>
+    <ion-buttons slot="start">
+      <ion-back-button defaultHref="home"></ion-back-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <iframe width="100%" height="315" [src]="video" frameborder="0" allowfullscreen></iframe>
+  <div>
+    <ion-card-header>
+   
+      <ion-card-title >{{productname}}</ion-card-title>
+    </ion-card-header>
+    <ion-card-content>
+     {{decri}}
+    </ion-card-content>
+
+  <ion-grid>
+    <ion-row style="font-size: 15px;font-weight: 900;">
+      <ion-col size="12" center text-center>
+        Details
+         </ion-col>
+     
+    </ion-row>
+
+    <ion-row>
+      <ion-col size="6" center text-center>
+     CPU manufacture
+      </ion-col>
+      <ion-col size="6" center text-center>
+        {{cpu}}
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="6" center text-center>
+    RAM
+      </ion-col>
+      <ion-col size="6" center text-center>
+        {{ram}}
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="6" center text-center>
+        Screen Size
+      </ion-col>
+      <ion-col size="6" center text-center>
+        {{screen}}
+      </ion-col>
+    </ion-row>
+    <ion-row>
+      <ion-col size="6" center text-center>
+        Price
+      </ion-col>
+      <ion-col size="6" center text-center>
+        {{price}}/-
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  
+</div>
+</ion-content>

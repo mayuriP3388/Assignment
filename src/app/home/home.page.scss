@@ -25,3 +25,18 @@
 #container a {
   text-decoration: none;
 }
+ion-button {
+	ion-badge {
+		position: absolute;
+		opacity: 0.9;
+        top: 0.1rem;
+        right: 0.2rem;
+		& ~ ion-icon {
+			margin-right: 1.2rem;
+		}
+	}
+  .btn{
+    font-size: 11px !important;
+    padding: 3px !important;
+  }
+}

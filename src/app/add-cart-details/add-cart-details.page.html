@@ -28,12 +28,12 @@
       </ion-row>
     </ion-footer>
   </ion-card>
-  <div style="height: 100%;
+  <div *ngIf="abc.length==0" style="height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;">
   
-  <p style="margin: 0;" *ngIf="abc.length==0">
+  <p style="margin: 0;">
   
     Cart is empty
   </p>

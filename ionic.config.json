@@ -1,5 +1,7 @@
 {
   "name": "SimpleCart",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
